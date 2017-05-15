@@ -1,8 +1,8 @@
 ```高度可定制日历
 
+<vue-calendar :demoEvents="demoEvents" @nextMonth="nextMonth" @lastMonth="lastMonth" @event="event"></vue-calendar>
 ```
 
-<vue-calendar :demoEvents="demoEvents" @nextMonth="nextMonth" @lastMonth="lastMonth" @event="event"></vue-calendar>
 
 #可用接口：
 
