@@ -1,11 +1,16 @@
 ```高度可定制日历
 
-<vue-calendar :demoEvents="demoEvents" @nextMonth="nextMonth" @lastMonth="lastMonth" @event="event"></vue-calendar>
 ```
 
+<vue-calendar :demoEvents="demoEvents" @nextMonth="nextMonth" @lastMonth="lastMonth" @event="event"></vue-calendar>
 
-###可用接口：
-1
+#可用接口：
+
+demoEvents:Array
+
+存放json数组，
+
+必须含有的键值对：data:'2017-05-11'
 
 ------------------------------------------------------------
 
@@ -21,6 +26,5 @@ nextMonth(data)/lastMonth(data):Function
 
 
 ------------------------------------------------------------
-###使用方法：
+使用方法：
 	在入口文件下引用并use
-
